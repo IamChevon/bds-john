@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta name="ad.size" content="width=300,height=250">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <script src="https://s0.2mdn.net/ads/studio/Enabler.js"></script>
+  <script>
+  if (!Enabler.isInitialized()) {
+    Enabler.addEventListener(
+      studio.events.StudioEvent.INIT,
+      enablerInitialized);
+  } else {
+     enablerInitialized();
+  }
+  function enablerInitialized() {
+    // Enabler initialized.ya
+    if (!Enabler.isVisible()) {
+      Enabler.addEventListener(
+        studio.events.StudioEvent.VISIBLE,
+        adVisible);
+    } else {
+       adVisible();
+    }
+  }
+  function adVisible() {
+    playBan();
+  }
+</script>
+</head>
+<body>
+
+  	<div id="ban">
+      <div id="shield-container">
+        <div id="shield1-container">
+          <div id="shield1"></div>
+        </div>
+        <div id="shield2-container">
+          <div id="shield2"></div>
+        </div>
+        <div id="shield3"></div>
+      </div>
+
+      <div id="logo"></div>
+      <div id="cta"></div>
+      <div id="endHolder"></div> 
+
+      <div id="logo-rays-container">
+        <img id="ray1" class="ray" src="ray-13.png" />
+        <img id="ray2" class="ray" src="ray-12.png" />
+        <img id="ray3" class="ray" src="ray-11.png" />
+        <img id="ray4" class="ray" src="ray-10.png" />
+        <img id="ray5" class="ray" src="ray-9.png" />
+        <img id="ray6" class="ray" src="ray-8.png" />
+        <img id="ray7" class="ray" src="ray-7.png" />
+        <img id="ray8" class="ray" src="ray-6.png" />
+        <img id="ray9" class="ray" src="ray-5.png" />
+        <img id="ray10" class="ray" src="ray-4.png" />
+        <img id="ray11" class="ray" src="ray-3.png" />
+        <img id="ray12" class="ray" src="ray-2.png" />
+        <img id="ray13" class="ray" src="ray-1.png" />
+        <img id="ray14" class="ray" src="ray-0.png" />
+      </div>
+
+      <div id="text-container-1" class="text-container">
+        <div class="text-line-bold text-line-one">
+          <div class="text-teal robo-bold text-set text-set-one">A level of protection in down markets</div>
+        </div>
+      </div>
+
+      <div id="text-container-2" class="text-container">
+        <div class="text-line-bold text-line-two">
+          <div class="text-teal robo-bold text-set text-set-two">Participation in up markets</div>
+        </div>
+      </div>
+
+      <div id="text-container-3">
+        <div class="text-line-boldEnd text-line-three">
+          <div class="text-teal robo-boldEnd text-set text-set-three">Shield Annuities provide a level</div>
+        </div>
+        <div class="text-line-boldEnd text-line-three">
+          <div class="text-teal robo-boldEnd text-set text-set-three">of protection and growth</div>
+        </div>        
+        <div class="text-line-boldEnd text-line-three">
+          <div class="text-teal robo-boldEnd text-set text-set-three">– with no annual fees.</div>
+        </div>
+      </div>
+
+      <div id="ban-wipes">
+        <div class="ban-wipe wipe-green-one"></div>
+        <div class="ban-wipe wipe-green-two"></div>
+        <div class="ban-wipe wipe-green-three"></div>
+        <div class="ban-wipe wipe-green-four"></div>
+        <div class="ban-wipe wipe-blue"></div>
+      </div>
+
+  	</div>
+
+  	<script type="text/javascript" src="v.js"></script>
+  	<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
