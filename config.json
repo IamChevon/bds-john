@@ -3,10 +3,12 @@
     "user": "demo",
     "pass": "demo"
   },
-  "banners": {
+  "banners": [
+    {
     "name":"CalvinKlein", 
     "rezies":["180x50","300x416"],
-    "FedEx": [
+    },
+      "FedEx": [
       "550x80",
       "550x480",
       "600x400",
