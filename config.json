@@ -7,11 +7,11 @@
     {
     "name":"CalvinKlein", 
     "resizes":["180x50","300x416"]
-    }
+    },
     {
     "name":"FedEx",
     "resizes": ["550x80","550x480","600x400","640x480"]
-    }
+    },
     {
     "name":"TruTV",
     "resizes": ["160x600","300x600","728x90","970x250"]
