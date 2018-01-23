@@ -4,10 +4,8 @@
     "pass": "demo"
   },
   "banners": {
-    "CalvinKlein": [
-      "180x50",
-      "300x416"
-    ],
+    "name":"CalvinKlein", 
+    "rezies":["180x50","300x416"],
     "FedEx": [
       "550x80",
       "550x480",
