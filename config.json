@@ -4,7 +4,7 @@
     "pass": "demo"
   },
   "banners": [
-    {"name":"CalvinKlein", "resizes":[{"size":"180x50"},{"size":"300x416"}]},
+    {"name":"Calvin Klein", "resizes":[{"size":"180x50"},{"size":"300x416"}]},
     {"name":"FedEx", "resizes": [{"size":"550x80"},{"size":"550x480"},{"size":"600x400"},{"size":"640x480"}]},
     {"name":"TruTV","resizes": [{"size":"160x600"},{"size":"300x600"},{"size":"728x90"},{"size":"970x250"}]}
             ]
